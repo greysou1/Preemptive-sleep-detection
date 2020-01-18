@@ -14,10 +14,14 @@ import imutils
 import time
 import dlib
 import cv2
+import simpleaudio as sa
 
 def sound_alarm(path):
 	# play an alarm sound
-	playsound.playsound(path)
+	#playsound.playsound(path)
+	wave_obj = sa.WaveObject.from_wave_file(path)
+	play_obj = wave_obj.play()
+	play_obj.wait_done()
 
 def eye_aspect_ratio(eye):
 	# compute the euclidean distances between the two sets of
