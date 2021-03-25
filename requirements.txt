@@ -145,7 +145,7 @@ pyobjc-framework-VideoSubscriberAccount==6.1
 pyobjc-framework-VideoToolbox==6.1
 pyobjc-framework-Vision==6.1
 pyobjc-framework-WebKit==6.1
-PyYAML==5.3
+PyYAML==5.4
 requests==2.22.0
 requests-oauthlib==1.3.0
 rsa==4.1
